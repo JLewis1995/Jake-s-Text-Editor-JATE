@@ -16,7 +16,7 @@ console.log(`init started`);
     },
   });
 
-// TODO: Add logic to a method that accepts some content and adds it to the database
+// update function via put
 export const putDb = async (content) => {
   console.log(`started put`);
   // connect to database
@@ -33,7 +33,7 @@ export const putDb = async (content) => {
   return result;
 };
 
-// TODO: Add logic for a method that gets all the content from the database
+// get function
 export const getDb = async () => {
   console.log(`started get`);
   // connect to database

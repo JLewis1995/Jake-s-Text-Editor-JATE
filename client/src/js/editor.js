@@ -28,7 +28,7 @@ export default class {
       console.info('Loaded data from IndexedDB, injecting into editor');
       this.editor.setValue(data || localData || header);  
     });
-
+    // tracking changes
     this.editor.on('change', () => {
       console.log(`inside on change`);
       localStorage.setItem('content', this.editor.getValue());

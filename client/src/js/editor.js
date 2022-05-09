@@ -30,7 +30,6 @@ export default class {
     });
     // tracking changes
     this.editor.on('change', () => {
-      console.log(`inside on change`);
       localStorage.setItem('content', this.editor.getValue());
     });
 

@@ -22,12 +22,12 @@ module.exports = () => {
         template: './index.html',
         title: 'Jate'
       }),
-         // Injects our custom service worker
+         // Injects our custom service worker(19)
          new InjectManifest({
           swSrc: './src-sw.js',
           swDest: 'src-sw.js',
         }),
-        // manifest.json
+        // manifest.json(26)
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -47,7 +47,7 @@ module.exports = () => {
         ],
       }),
     ],
-
+// 26
     module: {
       // CSS
       rules: [

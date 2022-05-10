@@ -5,6 +5,7 @@
   ## Description
 
 Just Another Text Editor! This text editor can be installed for offline usevia the install button. Additionally, it uses indexeddb to save your notes/work!
+(repo issues with git ignore and moving repository - thus short commit history)
 
   ## Table of Contents
   * [Install](#install)
